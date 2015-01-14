@@ -12,5 +12,6 @@ source "https://rubygems.org"
   gem 'create_awesome_readme'
   gem 'database_cleaner'
   gem 'bcrypt-ruby'
+  gem 'rack-flash3'
 
 
