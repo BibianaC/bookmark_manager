@@ -12,6 +12,7 @@ require_relative 'data_mapper_setup'
 enable :sessions
 set :session_secret, 'super secret'
 use Rack::Flash
+use Rack::MethodOverride
 
 
   get '/' do 
@@ -67,4 +68,10 @@ use Rack::Flash
       flash[:errors] = ["The email or password is incorrect"]
       erb :"sessions/new"
     end
+  end
+
+  delete '/sessions' do
+    flash[:notice] = "Good bye!"
+    session[:user_id] = nil
+    redirect to('/')
   end
