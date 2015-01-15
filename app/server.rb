@@ -20,6 +20,7 @@ enable :sessions
 
 set :session_secret, 'super secret'
 set :partial_template_engine, :erb
+set :public, Proc.new{ File.join(root, "..", "public") }
 
 use Rack::Flash
 use Rack::MethodOverride
