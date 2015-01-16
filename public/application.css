@@ -1,7 +1,15 @@
+/* -------
+Layout.erb
+----------*/
+
 body {
   background-image: url(/images/extra_clean_paper.png);
   font-family: Helvetica, Arial, Sans-serif;
 }
+
+/* ----------------
+Welcome_message.erb
+------------------- */
 
 header {
   width: 100%;
@@ -46,6 +54,9 @@ a.button.highlighted {
   font-family: Helvetica, Arial, Sans-serif;
 }
 
+/* --------
+   Links.erb
+-------------*/
 
 #links-container {
   background-color: white;
