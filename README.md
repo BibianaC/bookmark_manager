@@ -1,42 +1,38 @@
-Title
-=======================
+# Bookmark Manager
 
-## Synopsis
+## Task
 
-TODO: Enter a description of your project here.
+This week's project is a bookmark manager. The goal is to expose the following aspects of web development:
 
-![NAME_OF_IMAGE](http://ENTER_URL)
+* Acceptance testing: Capybara
+* Relational databases
+* Security considerations
 
-## Technologies Used
+A bookmark manager is a website to maintain a collection of links, organised by tags. You can use it to save a webpage you found useful. You can add tags to the webpages you saved to find them later. You can browse links other users have added.
 
-- LANGUAGE_ONE
-- LANGUAGE_TWO
-- FRAMEWORK
-- TESTING SUITES
+The website will have the following functionality:
 
-## Job List
+* Show a list of links from the database
+* Add new links
+* Add tags to the links
+* Filter links by a tag
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+## Context
 
-## Favourite Code Snippet
+4 week project at Makers Academy
 
-~~~
- TODO: paste code here
-~~~
+## Resources
 
-## Collaborators
+- Ruby
+- Sinatra
+- Data Mapper
+- Postgresql
+- Cucumber
+- Capybara
+- Rspec
+- HTML
+- CSS
 
-- NAME_ONE (http://www.github.com/USERNAME)
-- NAME_TWO (http://www.github.com/USERNAME)
+## Contributors
 
-## Still to complete/refactor
-
-- [ ]
-- [ ]
-
-## Takeaway
-
-TODO: Enter a personal reflection and/or things you learnt
+- Bibiana Cristòfol
