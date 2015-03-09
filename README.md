@@ -35,4 +35,5 @@ The website will have the following functionality:
 
 ## Contributors
 
+- [Danielle Demkiw](https://github.com/ddemkiw)
 - Bibiana Cristòfol
